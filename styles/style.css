@@ -40,18 +40,161 @@
 }
 
 .cover{
-  height: 757px;
-  width: 1100px;
   position: relative;
-  z-index: -2;
+  z-index: -3;
   background-image: url('../images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 165px 50px 237px;
+  width: 1100px;
+  height: 757px;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: rgb(0 0 0/ 0.6);
+  inset: 0;
+}
+
+.cover-title{
+  position: relative;
+  z-index: -1;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.text-title-left{
+  display: block;
+  position: relative;
+  text-align: start;
+}
+
+.text-title-center{
+  display: block;
+  position: relative;
+  text-align: center;
+  
+}
+ 
+.text-title-right{
+  display: block;
+  position: relative;
+  text-align: end;
+  
+}
+ 
+.text-spacing{
+  letter-spacing: 0.6em;
+}
+ 
+.text-no-spacing{
+  letter-spacing: 0;
+}
+
+.cover-description{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding: 147px 0 46px 0px;
+  text-transform: uppercase;
+  gap: 78px;
+  font-size: 22px;
+  white-space: nowrap; 
+  
+}
+
+.cover-description-text{
+  word-spacing: 18.5px; 
+  
+}
+
+.bet-button{
+  background: transparent;
+  color:rgb(255, 255, 255);
+  font-size: 22px;
+  border: 1px solid;
+  font-weight: normal;
+  width: 256px;
+  height: 51px;
+  text-transform: uppercase;
+}
+
+.lots{
+  padding: 179px 24px 0 24px;
+}
+.title-lots{
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-bottom: 27px;
+  padding-left: 40px;
+}
+
+.card-list_lots{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+
+.card{
+  position: relative;
+  z-index: -3;
+  width: 334px;
+  height: 563px;
+}
+
+.card-first{
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-second{
+  background-image: url(../images/card-lot-02.jpg);
   background-position: center;
   background-size: cover;
 }
- .overlay{
-  position: absolute;
-  z-index: -1;
-  background-color: rgb(0 0 0/ 0.6);
-  height: 100%;
-  width: 100%;
- }
+
+.card-third{
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-title-lots{
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 51px 0 0 40px;
+}
+
+.more{
+  padding: 30px 0 0 64px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.text-card{
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.text-first-position{
+  padding: 238px 40px 48px 40px ;
+}
+
+.text-second-position{
+  padding: 0 40px 48px 40px ;
+
+}
+
+.text-third-position{
+  padding: 90px 40px 48px 40px ;
+}
