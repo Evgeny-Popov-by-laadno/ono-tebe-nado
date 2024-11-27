@@ -1,4 +1,8 @@
 /* место для вашего кода */
+html{
+  scroll-behavior: smooth;
+}
+
 .header{
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -22,6 +26,7 @@
 
 .header_link{
   letter-spacing: 0.22px;
+  font-size: 18px;
 }
 
 .header__link-active{
@@ -37,6 +42,7 @@
   font-style: normal;
   justify-self: end;
   align-self: center;
+  font-size: 18px;
 }
 
 .cover{
@@ -176,7 +182,7 @@
 }
 
 .more{
-  padding: 30px 0 0 64px;
+  padding: 30px 0 0 40  px;
   text-decoration: underline;
   font-size: 20px;
 }
@@ -197,4 +203,88 @@
 
 .text-third-position{
   padding: 90px 40px 48px 40px ;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 240px 693px;
+  column-gap: 124px;
+  margin: 146px 24px 0;
+  
+}
+
+.about-logo{
+  display: block;
+  padding: 35px 0 0 47px; 
+}
+
+.black-circle{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+}
+
+.about-logo-image{
+  position: absolute;
+  height: 102px;
+  width: 136px;
+}
+
+.about-text{
+  display: grid;
+  grid-template-rows: 136px 47px 100px 120px 24px 168px;
+  grid-template-columns: 693px;
+
+}
+.about-title{
+  grid-column: 1;
+  grid-row: 2/6;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.about-text-first{
+  display:inline-block;
+  padding-right: 10px;
+  grid-column: 1;
+  grid-row: 4/6;
+}
+
+.about-text-second{
+  grid-row: 6/6;
+}
+
+.about-text-description{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 50px 88px;
+}
+
+.footer-address{
+  font-style: normal;
+  font-size: 18px;
+}
+
+.footer__links-list{
+  text-align: center;
+}
+
+.footer-social-list{
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.footer-social-list-item{
+  width: 48px;
 }
