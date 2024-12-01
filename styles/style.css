@@ -155,6 +155,10 @@
   min-height: 563px;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 51px 40px 48px;
 }
 
 .card-film {
@@ -170,7 +174,6 @@
 }
 
 .text-title-lots {
-  padding: 51px 40px 0 40px;
   color: rgb(255, 255, 255);
   font-size: 22px;
   text-decoration: underline;
@@ -186,18 +189,6 @@
 .text-card {
   color: rgb(255, 255, 255);
   font-size: 20px;
-}
-
-.text-film-position {
-  padding: 242px 40px 48px 40px;
-}
-
-.text-book-position {
-  padding: 0 40px 48px 40px;
-}
-
-.text-art-position {
-  padding: 95px 40px 48px 40px;
 }
 
 .about {
